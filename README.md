@@ -1,37 +1,40 @@
-### Hi there 👋
+# Dr. Hsin-Rui Lin
 
-<!--
-**Hsin-Rui/hsin-rui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Music Psychologist | Data Scientist**
 
-Here are some ideas to get you started:
+## About
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Dr. Hsin-Rui Lin is a music psychologist and data scientist who bridges the worlds of academic research and data-driven business insights. Holding a PhD in Music Psychology from the Hanover University of Music, Drama and Media, he currently works as a Data Analyst at HDI Global SE.
 
+## Academic Background
 
-    <h2>About Me</h2>
-    <p>I'm a data scientist with background of psychology of music. Currently working at HDI Global Specialty SE as Data engineer, dealing with finance data.</p>
-    <p>See <a href="public/about.html">here</a> for more about me.</p>
-    <h2>My Projects</h2>
-    <p>These are some projects I completed so far.</p>
-    <h3><a href="public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="assets/images/movie-ranking.png" alt="movie ranking project preview" height="200" />
-    <h3><a href="public/birthday-invite.html">Birthday Invitation Project</a></h3>
-    <img src="assets/images/birthday-invite.png" alt="birthday invitation image preview" height="200" />
+- **PhD in Music Psychology** - Hanover University of Music, Drama and Media
+- **Research Focus**: Musical sophistication, cultural participation, and aesthetic evaluation
+- **Publications**: Research published in journals such as Musicae Scientiae and Psychology of Music
 
-    <h2>Publications</h2>
-    <p>Here are some of my academic publications</p>
-    <ul>
-        <li>Gold-MSI...</li>
-    </ul>
+## Research Interests
 
-    <hr />
-    <h3><a href="public/contact.html">Contact me</a></h3>
-    
+- Psychology of Music and Musical Sophistication
+- Cultural Participation and Aesthetic Evaluation
+- Statistical Methods in Behavioral Research
+- Cross-cultural Music Psychology Studies
+- Data Science Applications in Academic Research
+
+## Technical Skills
+
+- **Programming**: R, Python, SQL
+- **Statistics**: Structural equation modeling, causal inferences, psychometrics
+
+## Personal Interests
+
+When not analyzing data or conducting research, Dr. Lin enjoys:
+
+- **Music**: Listening and singing music in various styles
+- **Spiritual practice**: Yoga, meditation, tarot and astrology
+
+## Contact Information
+
+- **LinkedIn**: [lin-hsin-rui-786aaa200](https://www.linkedin.com/in/lin-hsin-rui-786aaa200)
+- **ResearchGate**: [Hsin-Rui-Lin](https://www.researchgate.net/profile/Hsin-Rui-Lin)
+- **ORCID**: [0000-0003-4386-8558](https://orcid.org/0000-0003-4386-8558)
+
