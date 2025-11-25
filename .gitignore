@@ -76,4 +76,6 @@ Thumbs.db
 *.backup
 *.bak
 *.tmp
+
 .Rhistory
+
