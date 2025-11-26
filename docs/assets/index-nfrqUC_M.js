@@ -1,4 +1,4 @@
-(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))n(i);new MutationObserver(i=>{for(const a of i)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&n(o)}).observe(document,{childList:!0,subtree:!0});function s(i){const a={};return i.integrity&&(a.integrity=i.integrity),i.referrerPolicy&&(a.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?a.credentials="include":i.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function n(i){if(i.ep)return;i.ep=!0;const a=s(i);fetch(i.href,a)}})();function r(){return`
+(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))n(i);new MutationObserver(i=>{for(const a of i)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&n(o)}).observe(document,{childList:!0,subtree:!0});function s(i){const a={};return i.integrity&&(a.integrity=i.integrity),i.referrerPolicy&&(a.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?a.credentials="include":i.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function n(i){if(i.ep)return;i.ep=!0;const a=s(i);fetch(i.href,a)}})();const r="/hsin-rui/assets/2022-11-21-Foto-ChK4IMBv.jpg";function d(){return`
     <section class="section hero">
       <div class="container">
         <h1>Hsin-Rui Lin, Ph.D.</h1>
@@ -6,7 +6,7 @@
         <p class="email">hsinrui.lin@gmail.com</p>
         <div class="home-grid">
           <div class="about-photo">
-            <img src="/2022-11-21-Foto.jpg" alt="Hsin-Rui Lin" class="profile-photo">
+            <img src="${r}" alt="Hsin-Rui Lin" class="profile-photo">
           </div>
           <div class="home-content">
             <p class="bio">
@@ -52,12 +52,12 @@
         </div>
       </div>
     </section>
-  `}function d(){return`
+  `}const p="/hsin-rui/assets/2025-11-22-academic-CV-HRL-long-CWtYiP8m.pdf";function u(){return`
     <section class="section">
       <div class="container">
         <div class="cv-header-section">
           <h1>Curriculum Vitae</h1>
-          <a href="/2025-11-22-academic-CV-HRL-long.pdf" download class="download-button">
+          <a href="${p}" download class="download-button">
             <span>⬇</span> Download Full CV
           </a>
         </div>
@@ -193,7 +193,7 @@
         </div>
       </div>
     </section>
-  `}function p(){return`
+  `}function h(){return`
     <section class="section">
       <div class="container">
         <h1>Publications</h1>
@@ -247,7 +247,7 @@
           </div>
       </div>
     </section>
-  `}function u(){return`
+  `}function v(){return`
     <section class="section">
       <div class="container">
         <h1>Research Projects</h1>
@@ -295,4 +295,4 @@
         </div>
       </div>
     </section>
-  `}const c={"/":r,"/cv":d,"/publications":p,"/projects":u};function l(t){const e=c[t]||c["/"],s=document.getElementById("app");s.innerHTML=e(),h(t),window.scrollTo(0,0)}function h(t){document.querySelectorAll(".nav-link").forEach(e=>{e.classList.remove("active"),e.getAttribute("href")===t&&e.classList.add("active")})}function v(){document.querySelectorAll(".nav-link").forEach(s=>{s.addEventListener("click",n=>{n.preventDefault();const i=s.getAttribute("href");window.history.pushState({path:i},"",i),l(i)})}),window.addEventListener("popstate",s=>{var i;const n=((i=s.state)==null?void 0:i.path)||"/";l(n)});const e=window.location.pathname||"/";l(e)}document.addEventListener("DOMContentLoaded",()=>{v()});const m=new MutationObserver(()=>{document.querySelectorAll(".cv-item, .publication-item, .project-card, .about-photo, .about-text").forEach(e=>{if(!e.hasAttribute("data-animated")){e.setAttribute("data-animated","true"),e.style.opacity="0",e.style.transform="translateY(20px)",e.style.transition="opacity 0.6s ease, transform 0.6s ease";const s={root:null,rootMargin:"-100px",threshold:.1};new IntersectionObserver(i=>{i.forEach(a=>{a.isIntersecting&&(a.target.style.opacity="1",a.target.style.transform="translateY(0)")})},s).observe(e)}})});m.observe(document.getElementById("app"),{childList:!0,subtree:!0});
+  `}const c={"/":d,"/cv":u,"/publications":h,"/projects":v};function l(t){const e=c[t]||c["/"],s=document.getElementById("app");s.innerHTML=e(),m(t),window.scrollTo(0,0)}function m(t){document.querySelectorAll(".nav-link").forEach(e=>{e.classList.remove("active"),e.getAttribute("href")===t&&e.classList.add("active")})}function g(){document.querySelectorAll(".nav-link").forEach(s=>{s.addEventListener("click",n=>{n.preventDefault();const i=s.getAttribute("href");window.history.pushState({path:i},"",i),l(i)})}),window.addEventListener("popstate",s=>{var i;const n=((i=s.state)==null?void 0:i.path)||"/";l(n)});const e=window.location.pathname||"/";l(e)}document.addEventListener("DOMContentLoaded",()=>{g()});const f=new MutationObserver(()=>{document.querySelectorAll(".cv-item, .publication-item, .project-card, .about-photo, .about-text").forEach(e=>{if(!e.hasAttribute("data-animated")){e.setAttribute("data-animated","true"),e.style.opacity="0",e.style.transform="translateY(20px)",e.style.transition="opacity 0.6s ease, transform 0.6s ease";const s={root:null,rootMargin:"-100px",threshold:.1};new IntersectionObserver(i=>{i.forEach(a=>{a.isIntersecting&&(a.target.style.opacity="1",a.target.style.transform="translateY(0)")})},s).observe(e)}})});f.observe(document.getElementById("app"),{childList:!0,subtree:!0});

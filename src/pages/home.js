@@ -1,3 +1,5 @@
+import profilePhoto from '/public/2022-11-21-Foto.jpg';
+
 export function renderHome() {
   return `
     <section class="section hero">
@@ -7,7 +9,7 @@ export function renderHome() {
         <p class="email">hsinrui.lin@gmail.com</p>
         <div class="home-grid">
           <div class="about-photo">
-            <img src="/2022-11-21-Foto.jpg" alt="Hsin-Rui Lin" class="profile-photo">
+            <img src="${profilePhoto}" alt="Hsin-Rui Lin" class="profile-photo">
           </div>
           <div class="home-content">
             <p class="bio">

@@ -1,10 +1,12 @@
+import cvPath from '/public/2025-11-22-academic-CV-HRL-long.pdf';
+
 export function renderCV() {
   return `
     <section class="section">
       <div class="container">
         <div class="cv-header-section">
           <h1>Curriculum Vitae</h1>
-          <a href="/2025-11-22-academic-CV-HRL-long.pdf" download class="download-button">
+          <a href="${cvPath}" download class="download-button">
             <span>⬇</span> Download Full CV
           </a>
         </div>
